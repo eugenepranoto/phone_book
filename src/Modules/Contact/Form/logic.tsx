@@ -37,7 +37,7 @@ export function useContactFormLogic({ values, onSubmitCb }: {values?: Contact, o
             form.setValue('id', data.id);
             form.setValue('first_name', data.first_name);
             form.setValue('last_name', data?.last_name);
-            form.setValue('phones', data?.phones ?? [ { number: '' } ]);
+            form.setValue('phones', data?.phones ?? []);
         } else {
             form.reset();
         }
