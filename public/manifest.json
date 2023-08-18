@@ -1,0 +1,10 @@
+{
+  "name": "GoTo - PhoneBook",
+  "short_name": "GoTo PhoneBook",
+  "description": "Code Test GoTo Sotware Engineer.",
+  "theme_color": "#1fca3e",
+  "background_color": "#1fca3e",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/?source=pwa"
+}

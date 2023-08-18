@@ -1,0 +1,51 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+  ],
+  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["react-refresh"],
+  rules: {
+    "react-refresh/only-export-components": [
+      "warn",
+      { allowConstantExport: true },
+    ],
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-invalid-void-type": "off",
+    "@typescript-eslint/indent": "error",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/dot-notation": "off",
+    "@typescript-eslint/array-type": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-use-before-define": "off",
+    "no-console": "error",
+    "no-multi-spaces": "error",
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    quotes: [
+      2,
+      "single",
+      {
+        avoidEscape: true,
+      },
+    ],
+    semi: ["error", "always"],
+    "react/react-in-jsx-scope": "off",
+    "arrow-spacing": [
+      "error",
+      {
+        before: true,
+        after: true,
+      },
+    ],
+    "array-bracket-spacing": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+  },
+};

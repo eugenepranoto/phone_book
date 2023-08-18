@@ -1,0 +1,8 @@
+{
+  "name": "{{value}} name",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "Id": "Id",
+  "contact": "Contact",
+  "number": "Number"
+}

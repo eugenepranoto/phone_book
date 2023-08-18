@@ -1,0 +1,21 @@
+{
+  "author": "Eugene Pranoto",
+  "brand": "GoTo",
+  "save": "Save",
+  "cancel": "Cancel",
+  "back": "Back",
+  "loading": "Loading...",
+  "loadMore": "Load more data",
+  "error": "Error",
+  "noData": "No data...",
+  "delete": "Delete",
+  "upperCase": "{{value, uppercase}}",
+  "lowerCase": "{{value, lowercase}}",
+  "capitalize": "{{value, capitalize}}",
+  "currencyFormat": "{{value, currency}}",
+  "numberFormat": "{{value, number}}",
+  "your": "your {{value}}",
+  "plural": "{{value}}s",
+  "add": "Add {{value}}",
+  "dateFormat": "{{value, dateTime}}"
+}

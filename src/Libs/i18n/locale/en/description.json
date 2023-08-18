@@ -1,0 +1,12 @@
+{
+  "successInsertContact": "Successfully insert contact",
+  "failInsertContact": "Failed insert contact",
+
+  "successUpdateContact": "Successfully update contact",
+  "failUpdateContact": "Failed update contact",
+
+  "successDeleteContact": "Successfully delete contact",
+  "failDeleteContact": "Failed delete contact",
+
+  "noPhone": "No Phone"
+}
