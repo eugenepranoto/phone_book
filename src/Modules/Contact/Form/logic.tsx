@@ -135,7 +135,6 @@ export function useContactFormLogic({ values, onSubmitCb }: {values?: Contact, o
 
                 await Promise.all([ updateContactPromise, ...updatePhonePromises ]);
                 toast(t('description:successUpdateContact'), { type: 'success' });
-                form.reset();
                 onSubmitCb();
                 setLoadingUpdateContact(false);
             } catch (error) {
